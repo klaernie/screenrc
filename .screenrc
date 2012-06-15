@@ -9,11 +9,13 @@ deflogin on
 autodetach off
 
 # turn visual bell on
-vbell on
-vbell_msg "   Wuff  ----  Wuff!!  "
+vbell off
 
 # define a bigger scrollback, default is 100 lines
 defscrollback 10240
+
+# get proper utf-8
+defutf8 on on
 
 # ------------------------------------------------------------------------------
 # SCREEN KEYBINDINGS
