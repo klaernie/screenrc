@@ -15,7 +15,9 @@ vbell off
 defscrollback 10240
 
 # get proper utf-8
-defutf8 on on
+defutf8 on
+
+shell -/bin/zsh
 
 # ------------------------------------------------------------------------------
 # SCREEN KEYBINDINGS

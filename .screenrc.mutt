@@ -1,0 +1,6 @@
+
+source $HOME/.screenrc
+
+screen -t mutt /bin/zsh -i -c mutt
+
+# vim: ft=screen :
