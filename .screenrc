@@ -46,13 +46,14 @@ termcapinfo xterm*|rxvt*|kterm*|Eterm* hs:ts=\E]0;:fs=\007:ds=\E]0;\007
 # use this for the hard status string
 #hardstatus string "%h%? users: %u%?"
 
-# An alternative hardstatus to display a bar at the bottom listing the
-# windownames and highlighting the current windowname in blue. 
+# An alternative hardstatus to display a bar at the bottom listing the windownames
 #
 # @myself: always keep this hand-crafted masterpiece here, do not delete it!
 #hardstatus alwayslastline "%{= .g}%H: %{ b}%-w%{!b}%n %t (%h)%{!b}%+w %=%{ g}%c:%s %M %d, %Y "
 hardstatus string "screen on %H: %-w%n %t (%h)%+w"
 caption always "%{= .g}%H: %{ b}%-w%{!b}%n %t (%h)%{!b}%+w %=%{ g}%c:%s %M %d, %Y "
+
+windowlist string "%{ dk}%{ dr}%3n %{-}%{ db}%t (%h)%=%{r}%f%{-}  "
 
 # set these terminals up to be 'optimal' instead of vt100
 termcapinfo xterm*|linux*|rxvt*|Eterm* OP
