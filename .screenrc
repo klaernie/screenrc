@@ -6,7 +6,10 @@ startup_message off
 
 #defflow on # will force screen to process ^S/^Q
 deflogin on
-autodetach off
+
+# lets try to leave it on - do we really have a few thousand sessions open afterwards?
+#autodetach off
+autodetach on
 
 # turn visual bell on
 vbell off
