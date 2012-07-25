@@ -1,6 +1,8 @@
 
 source $HOME/.screenrc
 
+autodetach on
+
 screen -t mutt /bin/zsh -i -c mutt
 
 # vim: ft=screen :
