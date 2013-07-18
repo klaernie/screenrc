@@ -87,6 +87,9 @@ caption always "%{= .g}%H: %{ b}%-w%{!b}%n %t (%h)%{!b}%+w %=%{ g}%c:%s %M %d, %
 
 windowlist string "%{ dk}%{ dr}%3n %{-}%{ db}%t (%h)%=%{r}%f%{-}  "
 
+# read the terminal type to set from current $TERM
+source ${HOME}/.screenrc:hs-${TERM}
+
 # set these terminals up to be 'optimal' instead of vt100
 termcapinfo xterm*|linux*|rxvt*|Eterm* OP
 
