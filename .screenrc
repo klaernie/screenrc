@@ -13,7 +13,7 @@ autodetach on
 
 # turn visual bell on
 vbell off
-bell_msg "bell in window %s"
+bell_msg "bell in window %s^G"
 
 # define a bigger scrollback, default is 100 lines
 defscrollback 10240
