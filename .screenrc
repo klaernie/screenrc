@@ -41,6 +41,7 @@ bind I login on
 bind O login off
 bind } history
 
+# Scrolling with Shift-PgUp and Shift-PgDown
 # Scroll up
 bindkey -d "^[[5S" eval copy "stuff 5\025"
 bindkey -m "^[[5S" stuff 5\025
@@ -59,9 +60,13 @@ bindkey -m "^[[25T" stuff \004
 
 # Shift-Left
 bindkey "^[[27;5;9~" next
+# for mobaxterm
+bindkey "^[[1;2C"    next
 
 # Shift-Right
 bindkey "^[[27;6;9~" prev
+# for mobaxterm
+bindkey "^[[1;2D"    prev
 
 
 # ------------------------------------------------------------------------------
