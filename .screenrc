@@ -21,7 +21,7 @@ defscrollback 10240
 # get proper utf-8
 defutf8 on
 
-shell -/bin/zsh
+shell -zsh
 
 # read the terminal type to set from current $TERM
 source ${HOME}/.screenrc:term-${TERM}
