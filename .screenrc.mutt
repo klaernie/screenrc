@@ -5,6 +5,13 @@ autodetach on
 
 #term screen-16color
 
-screen -t mutt /bin/zsh -i -c mutt
+# run mutt on screen 0
+screen -t mutt 0 /bin/zsh -i -c mutt
+
+# run newsbeuter on screen 9
+screen -t newsbeuter 9 /bin/zsh -i -c newsbeuter
+
+# lastly switch to mutt by default
+select 0
 
 # vim: ft=screen :
