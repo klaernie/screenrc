@@ -6,7 +6,7 @@ autodetach on
 #term screen-16color
 
 # run mutt on screen 0
-screen -t mutt 0 /bin/zsh -i -c mutt
+screen -t mutt 0 zsh -i -c mutt
 
 # run newsbeuter on screen 9
 screen -t newsbeuter 9 /bin/zsh -i -c newsbeuter
