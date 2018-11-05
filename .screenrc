@@ -69,14 +69,14 @@ bindkey "^[[27;5;9~" next
 # for mobaxterm
 bindkey "^[[1;2C"    next
 # for linux vt
-bindkey "^[[C"       next
+#bindkey "^[[C"       next
 
 # Shift-Right
 bindkey "^[[27;6;9~" prev
 # for mobaxterm
 bindkey "^[[1;2D"    prev
 # for linux vt
-bindkey "^[[D"       prev
+#bindkey "^[[D"       prev
 
 
 # ------------------------------------------------------------------------------
